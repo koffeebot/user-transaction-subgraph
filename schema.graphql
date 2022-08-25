@@ -1,0 +1,14 @@
+# type ExampleEntity @entity {
+#   id: ID!
+#   count: BigInt!
+#   sender: Bytes! # address
+#   receiver: Bytes! # address
+# }
+type UserTransaction @entity {
+  id: ID! 
+  user: String!
+  amount: BigInt! 
+  # balance: Bytes! 
+  # pps: BigInt! 
+  type: String 
+}
