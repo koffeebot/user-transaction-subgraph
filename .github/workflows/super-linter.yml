@@ -29,3 +29,5 @@ jobs:
           DEFAULT_BRANCH: "main"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TYPESCRIPT_STANDARD_TSCONFIG_FILE: tsconfig.json
+          VALIDATE_JSCPD: false
+
