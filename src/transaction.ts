@@ -41,7 +41,7 @@ export function handleDeposit(event: Deposit): void {
   transaction.user = event.params.recipient.toString()
   transaction.amount = event.params.amount
   transaction.type = 'deposit'
-  transaction.save()
+             transaction.save()
 
 }
 
