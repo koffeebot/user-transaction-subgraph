@@ -55,6 +55,7 @@ export function handleWithdraw(event: Withdraw): void {
     // Entity fields can be set using simple assignments
     // transaction.user 
   } 
+  let a = 1
   transaction.user = event.params.recipient.toString()
   transaction.amount = event.params.amount
   // transaction.balance = vault
