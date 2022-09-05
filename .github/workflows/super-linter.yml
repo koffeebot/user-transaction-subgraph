@@ -24,5 +24,4 @@ jobs:
           LINTER_RULES_PATH: /
           TYPESCRIPT_STANDARD_TSCONFIG_FILE: tsconfig.json
           VALIDATE_JSCPD: false 
-          VALIDATE_TYPESCRIPT_STANDARD: true
           
