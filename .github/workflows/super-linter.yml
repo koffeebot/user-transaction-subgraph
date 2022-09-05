@@ -25,6 +25,7 @@ jobs:
         uses: github/super-linter@v4
         env:
           VALIDATE_ALL_CODEBASE: true
+          IGNORE_GENERATED_FILES: true
           DEFAULT_BRANCH: "main"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           TYPESCRIPT_STANDARD_TSCONFIG_FILE: tsconfig.json
