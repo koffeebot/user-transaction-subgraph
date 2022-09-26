@@ -20,7 +20,7 @@ jobs:
           VALIDATE_ALL_CODEBASE: false
           DEFAULT_BRANCH: "main"
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
+          VALIDATE_JAVASCRIPT_ES: false
           LINTER_RULES_PATH: /
           TYPESCRIPT_STANDARD_TSCONFIG_FILE: tsconfig.json
           VALIDATE_JSCPD: false 
