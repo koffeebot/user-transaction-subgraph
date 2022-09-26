@@ -38,9 +38,9 @@ export function handleDeposit(event: Deposit): void {
     // Entity fields can be set using simple assignments
     // transaction.user 
   }
-  transaction.user = event.params.recipient.toString()
-  transaction.amount = event.params.amount
-  transaction.type = 'deposit'
+  transaction.user =           event.params.recipient.toString()
+  transaction.amount =          event.params.amount
+  transaction.type =              'deposit'
              transaction.save      ()
 
 }
