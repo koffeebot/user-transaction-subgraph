@@ -22,7 +22,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VALIDATE_TYPESCRIPT_STANDARD: false
           VALIDATE_TYPESCRIPT_ES: true
-          VALIDATE_JAVASCRIPT_ES: false
           LINTER_RULES_PATH: /
           TYPESCRIPT_STANDARD_TSCONFIG_FILE: tsconfig.json
           VALIDATE_JSCPD: false 
