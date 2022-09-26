@@ -33,7 +33,7 @@ export function handleDeposit(event: Deposit): void {
   let transaction = UserTransaction.load(event.transaction.from.toHex())
 
   if (!transaction) {
-    transaction = new UserTransaction(event.transaction.from.toHex())
+    transaction = new         UserTransaction(event.transaction.from.toHex())
 
     // Entity fields can be set using simple assignments
     // transaction.user 
